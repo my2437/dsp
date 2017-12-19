@@ -20,29 +20,29 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.) 
 > > 
->1. $ pwd, show current working directory 
->2. $ mkdir, create a directory
+1. $ pwd, show current working directory 
+2. $ mkdir, create a directory
 3. $ rm -r, delete a directory and all of its child directories
 4. $ touch, create a file
 
-$ rm, remove a file
-$ cp, rename or copy a file 
-$ ls -a, list all files including hidden ones 
-$ cp, copy a file from one folder to another
-$ *, wildcard
-$ grep, global regular expression print, it searches files for lines that match a pattern and returns the results 
+5. $ rm, remove a file
+6. $ cp, rename or copy a file 
+7. $ ls -a, list all files including hidden ones 
+8. $ cp, copy a file from one folder to another
+9. $ *, wildcard
+10.$ grep, global regular expression print, it searches files for lines that match a pattern and returns the results 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls` list all files in the current working directory  
-`ls -a`  list all files including hidden files in the current working folder
-`ls -l`  list all files in long forms 
-`ls -lh` list all files in long formats with readable file sizes 
-`ls -lah` list all files including hiddenfiles with readable file sizes  
-`ls -t`  list contents sorted by time and date
-`ls -Glp` list long format directories with / appended to the end without user group names
+1. `ls` list all files in the current working directory  
+2. `ls -a`  list all files including hidden files in the current working folder
+3. `ls -l`  list all files in long forms 
+4. `ls -lh` list all files in long formats with readable file sizes 
+5. `ls -lah` list all files including hiddenfiles with readable file sizes  
+6. `ls -t`  list contents sorted by time and date
+7. `ls -Glp` list long format directories with / appended to the end without user group names
 
 
 > > 
@@ -53,11 +53,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > ls -1, displays each entry on a line 
-ls -c,displays files by file timestamp
-ls -r, display files in reverse order 
-ls -u, display files by the file access time
-ls -x, display files as rows across the screen 
+1.ls -1, displays each entry on a line 
+2.ls -c,displays files by file timestamp
+3.ls -r, display files in reverse order 
+4.ls -u, display files by the file access time
+5.ls -x, display files as rows across the screen 
  
 
 ---
