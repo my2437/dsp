@@ -53,11 +53,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-1.ls -1, displays each entry on a line 
-2.ls -c,displays files by file timestamp
-3.ls -r, display files in reverse order 
-4.ls -u, display files by the file access time
-5.ls -x, display files as rows across the screen 
+1. ls -1, displays each entry on a line 
+2. ls -c,displays files by file timestamp
+3. ls -r, display files in reverse order 
+4. ls -u, display files by the file access time
+5. ls -x, display files as rows across the screen 
  
 
 ---
@@ -66,7 +66,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 xargs takes a standard input and converts it into an argument or command
-> > $\ls | grep Cases | xargs touch
+$\ls | grep Cases | xargs touch
 
 
  
