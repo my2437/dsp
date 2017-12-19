@@ -22,8 +22,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > 
 >1. $ pwd, show current working directory 
 >2. $ mkdir, create a directory
->$ rm -r, delete a directory and all of its child directories
+>>$ rm -r, delete a directory and all of its child directories
 $ touch, create a file
+
 $ rm, remove a file
 $ cp, rename or copy a file 
 $ ls -a, list all files including hidden ones 
