@@ -66,7 +66,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 xargs takes a standard input and converts it into an argument or command
-$\ls | grep Cases | xargs touch
+>>$\ls | grep Cases | xargs touch
 
 
  
