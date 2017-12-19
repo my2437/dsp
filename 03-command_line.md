@@ -18,24 +18,33 @@ Here's a list of items with which you should be familiar:
 * listing hidden files
 * copying a file from one directory to another
 
-Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.) 
+> > 
+$ pwd, show current working directory 
+$ mkdir, create a directory
+$ rm -r, delete a directory and all of its child directories
+$ touch, create a file
+$ rm, remove a file
+$ cp, rename or copy a file 
+$ ls -a, list all files including hidden ones 
+$ cp, copy a file from one folder to another
+$ *, wildcard
+$ grep, global regular expression print, it searches files for lines that match a pattern and returns the results 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls` list all files in the current working directory  
+`ls -a`  list all files including hidden files in the current working folder
+`ls -l`  list all files in long forms 
+`ls -lh` list all files in long formats with readable file sizes 
+`ls -lah` list all files including hiddenfiles with readable file sizes  
+`ls -t`  list contents sorted by time and date
+`ls -Glp` list long format directories with / appended to the end without user group names
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+> > 
 
 ---
 
@@ -43,15 +52,21 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -1, displays each entry on a line 
+ls -c,displays files by file timestamp
+ls -r, display files in reverse order 
+ls -u, display files by the file access time
+ls -x, display files as rows across the screen 
+ 
 
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
+xargs takes a standard input and converts it into an argument or command
+> > $\ls | grep Cases | xargs touch
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
  
 
